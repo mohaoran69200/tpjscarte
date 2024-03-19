@@ -1,0 +1,80 @@
+/* Styles pour le conteneur */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Styles pour le formulaire */
+.formulaire {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Styles pour les éléments du formulaire */
+.formulaire label,
+.formulaire input,
+.formulaire select,
+.formulaire button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styles pour les éléments du formulaire */
+label,
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+    /* Espacement entre les éléments */
+}
+
+/* Style spécifique pour le bouton */
+.formulaire button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style pour les options du select */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Style pour le selecteur de couleur */
+input[type="color"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+}
+
+/* Style pour la div apercu */
+#apercu {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+

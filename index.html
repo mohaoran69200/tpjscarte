@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- div qui contient tout -->
+    <div class="container">
+        <!-- start formulaire -->
+        <form action="" class="formulaire" id="form">
+            <!-- message -->
+            <label for="message">Votre message:</label>
+            <textarea id="message" placeholder="Tapez votre message ici ..." class="message_input" rows="5"></textarea>
+            <!-- selection de la taille de police -->
+            <label for="police">Taille de la police:</label>
+            <select name="police" id="police">
+                <option value="petit">Petit</option>
+                <option value="moyen">Moyen</option>
+                <option value="grand">Grand</option>
+            </select>
+            <!-- couleur du texte -->
+            <label for="couleur_texte">Couleur du texte:</label>
+            <input type="color" id="couleur_texte" name="couleur_texte" />
+            <!-- couleur de fond -->
+            <label for="couleur_fond">Couleur de fond:</label>
+            <input type="color" id="couleur_fond" name="couleur_fond" />
+            <!-- input pour recuperer l'URL -->
+            <label for="url_image">URL de l'image de fond</label>
+            <input type="url" id="url_image" name="url_image" />
+            <!-- le boutton -->
+            <button type="submit" id="applySettingsButton">Appliquer les réglages</button>
+        </form>
+        <!-- start la div ou il y aura l'apercu -->
+        <div id="apercu">
+            <!-- Aperçu des valeurs sélectionnées -->
+            <h2>Votre message apparaitre ici...</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
